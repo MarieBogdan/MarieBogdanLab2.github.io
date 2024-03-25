@@ -1,0 +1,148 @@
+body {
+    background-color: #00457E;
+ 
+
+}
+/* 
+    NAVBAR
+*/
+.navbar{
+    background-color: #2F70AF;
+    font-family: 'Oswald';
+    font-size: 20px;
+
+}
+/* 
+    search button
+*/
+.input-group button{
+
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #ffffff;
+    border-color: #ffffff;
+    :hover {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+
+}
+
+/* 
+    NAVBAR
+*/
+
+/* 
+    INFO ABOUT 
+*/
+.about-section {
+    margin-top: 70px;
+    padding: 50px;
+    text-align: center;
+    background-color:#02315E;
+    color: white;
+
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* 
+    cards
+*/
+
+.card {
+    margin: 0 0.6em; 
+    border: none;
+    width: 23%;
+    margin: 10px;
+}
+.card .img-wrapper{
+    max-width: 100%;
+    height: 25em; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.card img{
+
+    max-height: 90%;
+}
+@media screen and (max-width: 1200px) {
+
+    .card {
+        width: 45%;
+    } 
+    .card .img-wrapper{
+       height:100%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .card {
+      width: 98%;
+    }
+    .card .img-wrapper{
+        height:100%;
+     }
+}
+
+/* 
+    info at cards
+*/
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display:block;
+}
+p.a {
+    text-align: Left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0.1;
+    font-family: 'Courier New', monospace;
+    color: black;
+}
+p.c{    
+    padding-top: 5px;
+    font-family: 'Allura';
+    font-size: 30px;
+    line-height: 0.1;
+    color: black;
+}
+p.b{
+    letter-spacing: 5px;
+    line-height: 0.1;
+    font-family: 'Courier New', monospace;
+    color: black;
+}
+p{
+    font-family: 'Courier New', monospace;
+    
+}
+
+/* 
+    INFO ABOUT 
+*/
+footer{
+    background-color: #2F70AF;
+    color:#fff;
+    font-family: 'Oswald';
+}

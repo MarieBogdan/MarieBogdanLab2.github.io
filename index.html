@@ -1,0 +1,279 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    
+    <link rel="stylesheet" href="styles/index.css">
+    
+</head>
+
+<body>
+   
+    <div class="m-4">
+        <nav class="navbar fixed-top  navbar-expand-lg navbar-dark pt-0.7 pb-1" id="navbar">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand">
+                    <img src="images/logo2.jpg" alt="Avatar Logo" style="width:60px;" class="rounded-pill">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="profile.html" class="nav-item nav-link">Profile</a>
+                        <a href="About.html" class="nav-item nav-link">About us</a>
+                    </div>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input id="searchForm" class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                            <button class="btn btn-outline my-2 my-sm-0" type="submit">Search</button>
+                            <ul id="searchHelper" style="display: none;"></ul>
+                        </div>
+                    </form>
+                    <div class="navbar-nav">
+                        <a href="register.html" class="nav-item nav-link">Sign up</a>
+                        <a href="login.html" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="carousel-section">
+            <h3 id="p1">Recipes of the week</h3>
+           
+
+            <div id="carouselControls" class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="images/1.jpg" class="d-block w-100" alt="Recipe image"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Lemon Garlic Butter Chicken</h5>
+                                <p class="card-text">by: Serena Montgomery</p>
+                                <button class="btn">See whole recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="images/2.jpg" class="d-block w-100" alt="Recipe image"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Healthy Sesame Chickent</h5>
+                                <p class="card-text">by: Serena Montgomery</p>
+                                <button class="btn">See whole recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="images/3.jpg" class="d-block w-100" alt="Recipe image"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tomato gnocchi with burrata</h5>
+                                <p class="card-text">by: Serena Montgomery</p>
+                                <button class="btn">See whole recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="images/4.jpg" class="d-block w-100" alt="Recipe image"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken with Roasted Tomatoes</h5>
+                                <p class="card-text">by: Serena Montgomery</p>
+                                <button class="btn">See whole recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="images/1.jpg" class="d-block w-100" alt="Recipe image"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken with Roasted Tomatoes</h5>
+                                <p class="card-text">by: Serena Montgomery</p>
+                                <button class="btn">See whole recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="images/2.jpg" class="d-block w-100" alt="Recipe image"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Healthy Sesame Chicken</h5>
+                                <p class="card-text">by: Serena Montgomery</p>
+                                <button class="btn">See whole recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="images/3.jpg" class="d-block w-100" alt="Recipe image"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tomato gnocchi with burrata</h5>
+                                <p class="card-text">by: Serena Montgomery</p>
+                                <button class="btn">See whole recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="images/4.jpg" class="d-block w-100" alt="Recipe image"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken with Roasted Tomatoes</h5>
+                                <p class="card-text">by: Serena Montgomery</p>
+                                <button class="btn">See whole recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="tips-section">
+            <h3>Tips for baking cookies</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="image-wrapper">
+                        <img src="images/tip1.jpg" alt="Tip image">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div clas="text">
+                        <p><strong>Ingredients at room temperature</strong></p>
+
+                        <p> By having your butter at room temperature, you will be able to easily cream the butter and
+                            sugar(s) together (See #2)! Also, having eggs at room temperature allows the eggs to more
+                            easily
+                            combine and emulsify with your creamed butter and sugars.
+                        </p>
+                        <p> <strong>Butter</strong> - Place wrapped butter in the microwave and heat in 5 second
+                            intervals,
+                            turning the stick
+                            of butter 1/4 turn each time. Once you start to feel the butter slightly soften, remove the
+                            butter from the microwave.
+                        </p>
+                        <p> <strong>Eggs</strong> - Place cold eggs in a bowl and fill the bowl with hot water (not
+                            boiling). Allow eggs to
+                            sit in the water for 5 minutes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="image-wrapper">
+                        <img src="images/tip2.jpg" alt="Tip image">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div clas="text">
+                        <p><strong>Do not overmix cookie dough</strong></p>
+                        <p>It is very important not to overmix or overwork your cookie dough. When the dough is
+                            overmixed,
+                            it leads to the development of gluten, causing the cookies to have a tougher texture.</p>
+                        <p>Flour is one of the last ingredients added to cookie dough before it is done (besides the mix
+                            ins). Some people prefer to mix in the flour by hand. I prefer to use my electric hand mixer
+                            on
+                            the lowest speed setting.</p>
+                        <p>Once all of the flour as been absorbed by the dough, stop mixing. If you need to scrape the
+                            bottom and sides of the bowl to incorporate any remaining flour, that is perfectly fine.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="image-wrapper">
+                        <img src="images/tip3.jpg" alt="Tip image">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div clas="text">
+                        <p><strong>Use a cookie scoop for even cookies</strong></p>
+                        <p>A perfect batch of cookies are uniform in size. Homemade cookies should be like snowflakes -
+                            no two are the same. But, to create perfect cookies, you do want them to be uniform sizes.
+                        </p>
+                        <p>If the cookies are uniform in size, they will bake evenly in the oven. If you have smaller
+                            and larger cookies, the smaller ones will cook and brown faster and the larger ones will
+                            still be cookie dough.</p>
+                        <p>Using a cookie scoop for your cookies will help you achieve even sized cookies that will bake
+                            evenly in your oven. They will also look beautiful.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
+
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+
+                </a>
+            </div>
+        </section>
+        <div class="text-center p-3">
+            © 2024 Recipes & Inspiration; Created by Marie Bogdan
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+    <script type="module" src="js/controller/CarouselController.js"></script>
+    <script type="module" src="js/controller/NavBarController.js"></script>
+    <script>
+        window.onload = function() {
+            window.NavBarController.init();
+        }
+    </script>
+</body>
+
+</html>
